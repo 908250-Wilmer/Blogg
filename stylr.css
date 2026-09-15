@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: Grey;
+}
+.header{
+    background-color: rgb(109, 27, 27);
+    height: 15vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.main{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    min-height: 85vh;
+}
+.sidebar{
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.content{
+    background-color: aqua;
+    width: 80%;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 15px;
+}
+.album{
+    background-color: floralwhite;
+    height: 100%;
+    padding: 5px;
+}
+.album > img{
+    width:80%;
+    margin:auto;
+    margin-top: 5px;
+    display: block;
+}
+.news{
+    background-color: black;
+    padding: 5px;
+}
+.news-item{
+    margin-top: 5px;
+    margin-left: 10px;
+}
